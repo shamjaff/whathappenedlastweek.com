@@ -22,7 +22,7 @@ body {
   padding: 0 0 48px 0;
 }
 div.wrapper {
-  width: 880px;
+  max-width: 880px;
   margin: 0 auto 0 auto;
 }
 div.wrapper a {
