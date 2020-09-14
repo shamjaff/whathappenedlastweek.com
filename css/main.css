@@ -114,6 +114,9 @@ div.wrapper div.media div.row div.cell {
   width: 50%;
   float: left;
 }
+div.wrapper div.media div.row.first div.cell {
+  width: 100%;
+}
 div.wrapper div.media div.row div.cell img {
   display: block;
   margin: 0 auto 0 auto;
