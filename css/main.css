@@ -1,0 +1,126 @@
+.clearfix::after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+.clearfix {
+     display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body {
+  background: url('../assets/background.png') repeat-x;
+  background-color: #2DF6F8;
+  background-size: 85%;
+  font-family: "arial";
+  padding: 0 0 48px 0;
+}
+div.wrapper {
+  width: 880px;
+  margin: 0 auto 0 auto;
+}
+div.wrapper a {
+  color: #000000;
+}
+div.wrapper a:hover {
+  font-weight: 900;
+}
+div.wrapper header {
+    position: relative;
+    padding: 145px 0 0 0;
+}
+div.wrapper header div.logo {
+  float: left;
+  width: 50%;
+  height: 192px;
+  background: url('../assets/logo@2x.png') no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+div.wrapper header div.logo img {
+  width: 392px;
+}
+div.wrapper header div.description {
+  width: 50%;
+  padding: 44px 0 0 0;
+  float: right;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1.3em;
+}
+div.wrapper header div.patreon {
+  position: absolute;
+  bottom: -140px;
+  left: 40px;
+}
+div.wrapper header div.patreon a svg {
+  transform: rotate(347.2927862150201deg);
+  width: 159px;
+  height: 107px;
+  vector-effect: non-scaling-stroke;
+}
+div.wrapper header div.patreon a span {
+  font-family: "arial black", "arial";
+  font-size: 14px;
+  position: absolute;
+  transform: rotate(342deg);
+  display: block;
+  top: 44px;
+  left: 12px;
+  text-decoration: underline;
+}
+div.wrapper div.content div.right {
+  float: right;
+  width: 50%;
+}
+div.wrapper div.content div.right p {
+  font-size: 20px;
+  display: block;
+  padding: 0 0 12px 0;
+  line-height: 1.3em;
+}
+div.wrapper div.content div.right p.stats {
+  margin: 24px 0 0 0;
+}
+div.wrapper div.content div.right p.schedule {
+}
+div.wrapper div.content div.right p.callout {
+  margin: 12px 0 0 0;
+  font-size: 14px;
+}
+div.wrapper div.content div.right {
+}
+div.wrapper div.media {
+  margin: 48px 0 0 0;
+}
+div.wrapper div.media label {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  font-size: 30px;
+  display: block;
+  font-family: "arial black", "arial";
+  text-align: center;
+}
+div.wrapper div.media div.row {
+  padding: 32px 0 32px 0;
+}
+div.wrapper div.media div.row div.cell {
+  width: 50%;
+  float: left;
+}
+div.wrapper div.media div.row div.cell img {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+div.wrapper div.media div.row.last div.cell:last-child {
+  font-family: "arial black", "arial";
+  font-size: 30px;
+  line-height: 200px;
+  text-align: center;
+}
