@@ -86,6 +86,7 @@ div.wrapper div.content div.right p {
   line-height: 1.3em;
 }
 div.wrapper div.content div.right p.stats {
+  width: 364px;
   margin: 24px 0 0 0;
 }
 div.wrapper div.content div.right p.schedule {
